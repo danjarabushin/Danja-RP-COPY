@@ -511,6 +511,12 @@ img {
 }
 
 /* -------------------------------------------WORKS------------------------------------------- */
+.pf-item-img{
+    color: #188ce8;
+}
+.pf-item-img:hover{
+    color: #188ce8;
+}
 
 .pf-works-list {
     display: flex;
@@ -527,6 +533,12 @@ img {
 .pf-item-box:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+
+    
+
+
+
+   
 }
 .pf-item-box:nth-child(1n + 7) {
     margin-bottom: 0px;
