@@ -518,11 +518,41 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .pf-item-img:hover{
    
     border-color: rgba(33, 150, 243, 0.9);
    
+}
+.pf-img-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    margin-bottom: -1px;
+    
+    
+    
+    padding: 20px 24px;
+    width: 400px;
+    height: 290px;
+    position: absolute;
+   
+    top: 325px;
+  
+    
+         
+}
+.pf-img-text :hover{
+    color: #FFFFFF;
+    border: 24px 63px solid rgba(33, 150, 243, 0.9);
+    background: rgba(33, 150, 243, 0.9);
 }
 .pf-item-img:nth-child(1n + 7) {
     margin-bottom: 0px;
