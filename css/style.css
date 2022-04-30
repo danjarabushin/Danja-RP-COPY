@@ -512,10 +512,20 @@ img {
 
 /* -------------------------------------------WORKS------------------------------------------- */
 .pf-item-img{
-    color: #188ce8;
+    width: 370px;
+    height: 294px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pf-item-img:hover{
-    color: #188ce8;
+   
+    border-color: rgba(33, 150, 243, 0.9);
+   
+}
+.pf-item-img:nth-child(1n + 7) {
+    margin-bottom: 0px;
 }
 
 .pf-works-list {
