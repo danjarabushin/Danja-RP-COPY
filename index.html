@@ -81,7 +81,7 @@
                     <h1 class="hero-title">
                         Эффективные решения для вашего бизнеса
                     </h1>
-                    <button class="hero-btn" type="button">
+                    <button class="hero-btn" type="button" data-modal-open>
                         Заказать услугу
                     </button>
                 </div>
@@ -161,28 +161,43 @@
                 <div class="container">
                     <ul class="lists about-more-list">
                         <li>
-                            <img
+                            <div class="about-top-warp">
+                                <img
                                 class="about-img"
                                 src="./images/box1.jpg"
                                 alt="1"
                                 width="370"
                             />
+                            <p class="about-img-text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ
+                            </p>
+                            </div>
+                            
                         </li>
                         <li>
-                            <img
+                            <div class="about-top-warp">
+                                <img
                                 class="about-img"
                                 src="./images/box2.jpg"
                                 alt="2"
                                 width="370"
                             />
+                            <p class="about-img-text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ
+                            </p>
+                            </div>
+                            
                         </li>
                         <li>
-                            <img
+                            <div class="about-top-warp">
+                                <img
                                 class="about-img"
                                 src="./images/box3.jpg"
                                 alt="3"
                                 width="370"
                             />
+                            <p class="about-img-text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ
+                            </p>
+                        </div>
+                            
                         </li>
                     </ul>
                 </div>
@@ -595,5 +610,19 @@
                 </div>
             </div>
         </footer>
+        <div class="backbrop" data-modal>
+            <div class="modal">
+                <button type="button"  class="modal-close-bt" data-modal-close> <svg
+                    class="footer-soc-icon"
+                    width="11"
+                    height="11"
+                >
+                    <use
+                        href="images/symbol-defs.svg#icon-cross"
+                    ></use>
+                </svg></button>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
     </body>
 </html>
