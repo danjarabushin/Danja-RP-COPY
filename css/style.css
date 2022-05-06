@@ -769,6 +769,9 @@ button.current {
     fill: var(--brend-color);
     border-color: var(--brend-color);
 }
+.modal-input-warp{
+    position: relative;
+}
 .input-icon{
     position: absolute;
     left: 14px;
