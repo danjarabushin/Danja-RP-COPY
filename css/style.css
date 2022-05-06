@@ -769,7 +769,12 @@ button.current {
     fill: var(--brend-color);
     border-color: var(--brend-color);
 }
-
+.input-icon{
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+}
  
 .is-hidden {
     opacity: 0;
