@@ -762,10 +762,10 @@ button.current {
     transform: translate(-50%, -50%);
     fill: #000000;
 }
-.modal-close-icon.input-icon:hover .modal-close-icon,
-.modal-close-icon.input-icon:focus .modal-close-icon,
-.modal-close-icon.input-icon:hover,
-.modal-close-icon.input-icon:focus {
+.modal-close-icon:hover.input-icon:hover .modal-close-icon,
+.modal-close-icon:focus .input-icon:focus .modal-close-icon,
+.modal-close-icon:hover.input-icon:hover,
+.modal-close-icon:focus .input-icon:focus {
     fill: var(--brend-color);
     border-color: var(--brend-color);
 }
