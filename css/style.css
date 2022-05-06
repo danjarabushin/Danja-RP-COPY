@@ -776,7 +776,8 @@ button.current {
     position: absolute;
     left: 14px;
     top: 50%;
-    
+    transform: translateY(-50%);
+
 }
  
 .is-hidden {
