@@ -771,7 +771,7 @@ button.current {
 }
 .modal-input-warp{
     position: relative;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .input-icon{
     position: absolute;
