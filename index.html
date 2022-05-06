@@ -634,18 +634,46 @@
                 </button>
                 <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
               <form>
-                  <label class="modal-input-text">Имя
-                  
-                  <input type="text" class="modal-input" name="user-name" minlength="2" required />
-                </label>
-                <label class="modal-input-text">Телефон
-                    <input type="tel" class="modal-input"  name="user-tel"required />
-                </label>
                   <div>
-                <label class="modal-input-text">Почта
+                  <label for="user-name" class="modal-input-text">Имя
+                  
+                  <input 
+                  type="text" 
+                  class="modal-input" 
+                  name="user-name" 
+                  minlength="2" 
+                  required
+                  id="user-name"
+                   />
+                  <svg class="input-icon" width="18" height="18">
+                    <use href="images/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                </label>
+            </div>
+                <div>
+                <label class="modal-input-text" for="user-tel">Телефон
+                    <input 
+                    type="tel" 
+                    class="modal-input"  
+                    name="user-tel"
+                    required
+                    id="user-tel" 
+                    />
+                    <svg class="input-icon" width="18" height="18">
+                        <use href="images/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                </label>
+            </div>
+                  <div>
+                <label class="modal-input-text" for="user-email">Почта
                     
-                    <input type="email" class="modal-input" name="user-email" />
-                    <svg class="modal-close-icon" width="18" height="18">
+                    <input 
+                    type="email" 
+                    class="modal-input" 
+                    name="user-email"
+                    id="user-email"
+                     />
+                    <svg class="input-icon" width="18" height="18">
                         <use href="images/symbol-defs.svg#icon-mail"></use>
                     </svg>
                 </label>
