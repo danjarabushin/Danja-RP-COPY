@@ -762,21 +762,25 @@ button.current {
     transform: translate(-50%, -50%);
     fill: #000000;
 }
-.modal-close-icon:hover.input-icon:hover .modal-close-icon,
-.modal-close-icon:focus .input-icon:focus .modal-close-icon,
-.modal-close-icon:hover.input-icon:hover,
-.modal-close-icon:focus .input-icon:focus {
+.input-icon:focus,
+.input-icon:hover,
+.modal-input-warp:focus,
+.modal-input-warp:hover,
+.modal-close-icon:focus,
+.modal-close-icon:hover
+ {
     fill: var(--brend-color);
     border-color: var(--brend-color);
 }
 .modal-input-warp{
     position: relative;
     margin-bottom: 10px;
+    transition: fill 250ms;
 }
 .input-icon{
     position: absolute;
     left: 14px;
-    top: 50%;
+    top: 70%;
 
 
 }
@@ -863,10 +867,12 @@ input.modal-input{
 
 .modal-check {
     background-color: var(--brand-color);
+    margin-left: 15px;
+  
 }
 
 .modal_check_text {
-    line-height: 24px;
+    line-height: 12px;
     letter-spacing: 0.03em;
 }
 
@@ -875,7 +881,7 @@ input.modal-input{
 }
 
 .modal-input-warp:nth-child(5)  {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
