@@ -769,10 +769,9 @@ button.current {
     fill: var(--brend-color);
     border-color: var(--brend-color);
 }
-.modal-input-warp:nth-child(5) {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    
+.modal-input-warp{
+    position: relative;
+    margin-bottom: 10px;
 }
 .input-icon{
     position: absolute;
@@ -856,5 +855,27 @@ input.modal-input{
 .modal-input-btn:hover,
 .modal-input-btn:focus {
     background-color: var(--brand-bg-color);
+}
+.modal-input-btn:hover,
+.modal-input-btn:focus {
+    background-color: var(--brand-bg-color);
+}
+
+.modal-check {
+    background-color: var(--brand-color);
+}
+
+.modal_check_text {
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.modal_check_text_link {    
+    color: var(--brend-color);
+}
+
+.modal-input-warp:nth-child(5)  {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
