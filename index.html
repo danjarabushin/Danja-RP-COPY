@@ -595,7 +595,7 @@
                                 ></use>
                             </svg>
                         </li>
-                        <li class="footer-soc-item1 lists">
+                        <li class="footer-soc-item lists">
                             <svg
                                 class="footer-soc-icon"
                                 width="20"
@@ -606,21 +606,33 @@
                                 ></use>
                             </svg>
                         </li>
-                        <div class="footer-input-padding">
-                            <ul>
-                                <li>
-                        <h3 class="footer-input-title">Подпишитесь на рассылку</h3>
-                    </li>
-                    <li>
-                        <form>
-                            <input type="text" name="user-email" class="footer-modal-input"placeholder="E-mail" />
-                        </form>
-                    </li>
-                        <li>
-                        <!-- <button type="button" class="footer-input-button">Подписатся</button> -->
-                    </li>
-                    </ul>
-                    </div>
+                        <div class="footer-sending footer-padding">
+                            <p class="footer-title">Подпишитесь на рассылку</p>
+                            <form class="footer-input-form">
+                                <div class="footer-modal-field">
+                                    <label
+                                        for="sending-mail"
+                                        class="footer-label"
+                                    ></label>
+                                    <input
+                                        type="email"
+                                        class="footer-input"
+                                        name="sending mail"
+                                        title="Введите Ваш E-mail"
+                                        id="sending-mail"
+                                        placeholder="E-mail"
+                                    />
+                                    <button class="footer-sending_btn" type="submit">
+                                        Подписаться
+                                        <svg class="footer-sendign-icon" width="24" height="24">
+                                        <use
+                                            href="images/symbol-defs.svg#icon-send"
+                                        ></use>
+                                    </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -696,7 +708,7 @@
                     for="modal-check" 
                     class="modal_check_text">Соглашаюсь с рассылкой и принимаю <a href="#" class="modal_check_text_link">Условия договора</a></label>
                 </div>
-                  <button type="submit" class="modal-input-btn">Отправить</button>;
+                  <button type="submit" class="modal-input-btn">Отправить</button>
               </form>
             </div>
         </div>

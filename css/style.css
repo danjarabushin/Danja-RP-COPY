@@ -497,7 +497,9 @@ img {
 .footer-content {
     margin-right: 30px;
 }
-
+.footer-soc-item:not(:last-child) {
+    margin-right: 10px;
+}
 .footer-soc-item {
     width: 44px;
     height: 44px;
@@ -511,91 +513,76 @@ img {
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-soc-item1{
-    width: 44px;
-    height: 44px;
-    padding: 12px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
 
-.footer-soc-icon, .footer-soc-item1 {
+
+.footer-soc-icon{
     fill: var(--light-color);
     
 }
 
 .footer-soc-item:hover,
-.footer-soc-item:focus,.footer-soc-item1:hover,
-.footer-soc-item1:focus  {
+.footer-soc-item:focus {
     background-color: var(--brend-color);
 }
- .footer-modal-input{
-    top: 0;
+.footer-sending {
+    right: 0px;
+}
+
+.footer-modal-field {
+    display: flex;
+}
+
+.footer-input {
     width: 358px;
     height: 50px;
-    border: 1px solid #757575;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 16px 15px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    background-color: var(--main-color);
-    background-color:  #2F303A;
+    background-color: transparent;
+    margin-right: 12px;
+    padding-left: 16px;
     color: var(--light-color);
-    
-    
-}
-.footer-input-padding{
-    
-    margin-left: 94px;
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-input:hover,
+.footer-input:focus {
+    cursor: pointer;
+    border: 1px solid #2196f3;
+}
 
-.footer-input-title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    top: 0;
-    color: #FFFFFF;
-   
-    padding-bottom: 20px;
-    
-} 
-/* .footer-input-button{
+.footer-sendign-icon {
+    fill: var(--light-color);
+    margin-left: 10px;
+
+}
+
+.footer-sending_btn {
+    display: block;
     width: 200px;
     height: 50px;
-
     background: var(--brend-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
-    color: var(--light-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
-    display: block;
-    align-items: center;
+    line-height: 30px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;    
     letter-spacing: 0.06em;
-    cursor: pointer;
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-    /* margin-left: 470px;
-   */
+    color: var(--light-color);
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-   
-/* } */
+.footer-sending_btn:hover,
+.footer-sending_btn:focus {
+    background-color: var(--brand-bg-color);
+}
 /* -------------------------------------PORTFOLIO = PF---------------------------------- */
 /* ---------------------------------------PF BUTTONS-------------------------------------*/
 
@@ -774,7 +761,7 @@ button.current {
 }
 .modal-input-warp{
     position: relative;
-    margin-bottom: 10px;
+   
     transition: fill 250ms;
 }
 .input-icon{
@@ -792,8 +779,9 @@ button.current {
 }
 
 .modal-title{
-    font-size: 18px;
-    font-weight: 600;
+   
+    font-size: 20px;
+    font-weight: 700;
     color: #2f303a;
     text-align: center;
     margin-bottom: 20px;
